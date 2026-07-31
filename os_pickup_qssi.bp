@@ -2,5 +2,7 @@ soong_namespace {
     imports: [
         "vendor/qcom/opensource/commonsys-intf/display",
         "vendor/qcom/opensource/display",
+        // Pixelworks IIris HIDL (Ace 3 MEMC auto-PT via irisConfigureSet)
+        "hardware/pixelworks/interfaces",
     ],
 }
